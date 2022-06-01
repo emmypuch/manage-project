@@ -2,4 +2,43 @@
 
 * {
   font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+div.logo h4 {
+  color: #0e1028;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #080a1f;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+a#nav-btn {
+  background-color: #f3613c;
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #f0f0f3;
+  font-size: 0.8rem;
 }
