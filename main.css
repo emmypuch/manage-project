@@ -88,9 +88,9 @@ div.hamburger {
   div.logo {
     display: block;
     position: absolute;
-    top: 2px;
+    top: 5px;
     left: 0;
-    padding-left: 7px;
+    padding-left: 10px;
   }
 
   div.logo h4 {
@@ -114,8 +114,8 @@ div.hamburger {
     background-color: #a1a3b4;
     padding: 5px;
     position: absolute;
-    right: 0px;
-    top: 2px;
+    right: 10px;
+    top: 5px;
     border-radius: 5px;
   }
 }
@@ -396,6 +396,7 @@ div.team-section-btn a {
 
   div.team-section-heading h3 {
     text-align: center;
+    margin-top: 15px;
   }
 
   div.team-section-btn {
