@@ -94,7 +94,7 @@ div.hamburger {
   }
 
   div.logo h4 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   nav ul {
@@ -305,8 +305,8 @@ div.image {
 }
 
 div.image img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
 }
 
@@ -343,5 +343,63 @@ div.review-btn {
   div.review-comment-section {
     flex-direction: column;
     gap: 40px;
+  }
+}
+
+/* Team Styling */
+div.team-section {
+  background-color: #f3613c;
+  padding: 5rem;
+  margin-top: 40px;
+}
+
+div.team-section-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.team-section-heading {
+  max-width: 330px;
+}
+
+div.team-section-heading h3 {
+  color: #f0f0f3;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+div.team-section-btn {
+  margin-top: 20px;
+}
+
+div.team-section-btn a {
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #f3613c;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  div.team-section {
+    padding: 1rem;
+    margin-top: 40px;
+  }
+
+  div.team-section-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.team-section-heading h3 {
+    text-align: center;
+  }
+
+  div.team-section-btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 }
