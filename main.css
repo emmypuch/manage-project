@@ -244,6 +244,8 @@ div.content p {
   div.comparison-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
     margin-top: 30px;
   }
@@ -265,4 +267,57 @@ div.content p {
     max-width: 500px;
     margin-top: 30px;
   }
+}
+
+/* Reviews Styling */
+div.review-section {
+  padding: 5rem;
+}
+
+div.review-section h3 {
+  color: #1b2140;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+div.review-comment-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+div.review-comment {
+  background-color: #f0f0f3;
+  padding: 15px;
+}
+
+div.image {
+  position: relative;
+  top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+div.review-comment h6 {
+  font-size: 0.9rem;
+  color: #1b2140;
+  text-align: center;
+}
+
+div.review-comment p {
+  font-size: 0.8rem;
+  color: #909094;
+  text-align: center;
+  margin-top: 10px;
 }
