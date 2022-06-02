@@ -10,19 +10,19 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 5rem;
   width: 100%;
 }
 
 div.logo h4 {
-  color: #0e1028;
+  color: #1b2140;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
 nav ul {
   display: flex;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 nav ul li {
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #080a1f;
+  color: #c2c2c5;
   text-decoration: none;
 }
 
@@ -117,5 +117,152 @@ div.hamburger {
     right: 0px;
     top: 2px;
     border-radius: 5px;
+  }
+}
+
+/* Hero Styling */
+div.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+div.flex {
+  text-align: center;
+  max-width: 595px;
+}
+
+div.flex h1 {
+  color: #1b2140;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+div.flex p {
+  color: #c2c2c5;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+div.hero-btn {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  div.hero-section {
+    padding: 1rem;
+  }
+
+  div.flex {
+    max-width: 400px;
+  }
+
+  div.flex h1 {
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+
+  div.flex p {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+}
+
+/* Comparison Styling */
+div.comparison-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+div.comparison-heading {
+  max-width: 300px;
+}
+
+div.comparison-heading h3 {
+  color: #1b2140;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+div.comparison-heading p {
+  color: #c2c2c5;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+div.comparison-list {
+  max-width: 500px;
+}
+
+div.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.lists:nth-child(2),
+div.lists:nth-child(3) {
+  margin-top: 35px;
+}
+
+div.digit p {
+  color: #f3613c;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+div.digit h6 {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #f0f0f3;
+}
+
+div.content {
+  margin-left: 20px;
+}
+
+div.content h5 {
+  color: #1b2140;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+div.content p {
+  color: #c2c2c5;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  div.comparison-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 30px;
+  }
+
+  div.comparison-heading {
+    max-width: 340px;
+    text-align: center;
+  }
+
+  div.comparison-heading h3 {
+    font-size: 1.5rem;
+  }
+
+  div.comparison-heading p {
+    font-size: 0.9rem;
+  }
+
+  div.comparison-list {
+    max-width: 500px;
+    margin-top: 30px;
   }
 }
