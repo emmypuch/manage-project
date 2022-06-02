@@ -293,6 +293,7 @@ div.review-comment-section {
 div.review-comment {
   background-color: #f0f0f3;
   padding: 15px;
+  border-radius: 3px;
 }
 
 div.image {
@@ -320,4 +321,27 @@ div.review-comment p {
   color: #909094;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.review-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  div.review-section {
+    padding: 1rem;
+  }
+
+  div.review-section h3 {
+    font-size: 1.7rem;
+  }
+
+  div.review-comment-section {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
