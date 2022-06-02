@@ -87,6 +87,14 @@ div.hamburger {
 
   div.logo {
     display: block;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    padding-left: 7px;
+  }
+
+  div.logo h4 {
+    font-size: 1.1rem;
   }
 
   nav ul {
