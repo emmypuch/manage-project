@@ -404,3 +404,14 @@ div.team-section-btn a {
     margin-bottom: 20px;
   }
 }
+
+/* Footer Styling */
+footer {
+  padding: 5rem;
+  background-color: #1e1e26;
+}
+
+div.footer-section {
+  display: flex;
+  justify-content: space-between;
+}
