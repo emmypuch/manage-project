@@ -425,7 +425,7 @@ div.footer-logo {
 div.footer-socials {
   display: flex;
   gap: 10px;
-  margin-top: 50px;
+  margin-top: 67px;
 }
 
 div.footer-socials li {
@@ -439,6 +439,7 @@ div.footer-socials li a {
 
 div.footer-links li {
   list-style: none;
+  margin-top: 10px;
 }
 
 div.footer-links li a {
@@ -453,6 +454,7 @@ div.footer-links li:nth-child(2) a {
 
 div.footer-links_two li {
   list-style: none;
+  margin-top: 10px;
 }
 
 div.footer-links_two li a {
@@ -461,7 +463,7 @@ div.footer-links_two li a {
   text-decoration: none;
 }
 
-div.footer-input input {
+div.footer-input input[type="email"] {
   padding: 8px;
   background-color: #f0f0f3;
   border-radius: 50px;
@@ -469,6 +471,7 @@ div.footer-input input {
   border: none;
   outline: none;
   font-size: 0.8rem;
+  position: relative;
 }
 
 ::placeholder {
@@ -476,8 +479,17 @@ div.footer-input input {
   font-size: 0.8rem;
 }
 
-div.footer-links_btn {
-  padding: 3px;
+input[type="submit"] {
+  padding: 8px;
   background-color: #f3613c;
   color: #f0f0f3;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-right: 10px;
+  position: absolute;
+  right: 80px;
 }
