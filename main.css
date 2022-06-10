@@ -79,7 +79,7 @@ a#nav-btn {
   margin-left: 10px;
 }
 
-div.hamburger {
+div.toggleButton {
   display: none;
 }
 
@@ -118,7 +118,7 @@ div.hamburger {
     text-align: center;
   }
 
-  div.hamburger {
+  div.toggleButton {
     display: block;
     background-color: #a1a3b4;
     padding: 5px;
