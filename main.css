@@ -22,7 +22,14 @@ div.logo h4 {
 
 nav ul {
   display: flex;
-  margin-top: 7px;
+}
+
+header nav ul li:nth-child(1),
+header nav ul li:nth-child(2),
+header nav ul li:nth-child(3),
+header nav ul li:nth-child(4),
+header nav ul li:nth-child(5) {
+  margin-top: 12px;
 }
 
 nav ul li {
@@ -68,6 +75,8 @@ a#nav-btn {
   color: #f0f0f3;
   font-size: 0.8rem;
   text-align: center;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
 div.hamburger {
