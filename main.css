@@ -116,6 +116,7 @@ div.toggleButton {
     margin-bottom: 50px;
     list-style: none;
     text-align: center;
+    font-size: 1rem;
   }
 
   div.toggleButton {
